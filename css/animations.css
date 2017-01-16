@@ -1,0 +1,125 @@
+/* ------------------------------ ANIMATIONS ------------------------------------- */
+
+
+
+
+/* hero logo*/
+@keyframes fadeInHero {
+    from { opacity: 0; top: 30%; }
+    to   { opacity: 1; top: 50%; }
+}
+
+/* recent events*/
+
+@keyframes fadeOverlay{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+
+                    /* about nav bar*/
+
+
+
+
+@keyframes fadeInInner{
+    from{opacity: 0;}
+    to{ opacity: 1;}
+}
+
+
+                    /* form warnings*/
+
+@keyframes warning{
+    from{ background-color: #d9534f;}
+    to{ background-color: white;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        /*      top nav bar        */
+/*
+@keyframes navSmall {
+    from { height: 80px; }
+    to   { height: 60px; }
+}
+
+@keyframes navLarge {
+    from { height: 60px; }
+    to   { height: 80px; }
+}
+
+@keyframes navLarge_lineHeight {
+    
+    from { margin: 20px 0px; }
+    to   { margin: 30px 0px; }
+}
+
+@keyframes navSmall_lineHeight {
+    
+    from { margin: 30px 0px; }
+    to   { margin: 20px 0px; }
+    
+}
+
+
+@keyframes navSmall_logo {
+    from { transform: scale(1); margin: 6% 0%;}
+    to   { transform: scale(0.8); margin: 0% 0%;}
+}
+
+@keyframes navLarge_logo {
+    from { transform: scale(0.8); margin: 0% 0%;}
+    to   { transform: scale(1); margin: 6% 0%;}
+}
+
+@keyframes toggleSmall{
+    from {margin: 22.5px 0px;}
+    to   {margin: 13px 0px;}
+}
+
+@keyframes toggleLarge{
+    from {margin: 13px 0px;}
+    to   {margin: 22.5px 0px;}
+}
+*/
+
+
+
+/*
+@keyframes fadeInGolfball{
+    from{opacity: 0;}
+    to{opacity: 0.2;}
+}
+
+@keyframes fadeOutAboutNavText {
+    from { opacity : 1; }
+    to { opacity : 0; }
+}
+*/

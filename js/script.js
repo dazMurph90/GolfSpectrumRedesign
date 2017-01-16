@@ -1,7 +1,8 @@
                 /*  MAIN  */
 $(function () {
+    $(window).on("load", function() {
     
-    $('button').click(function(){
+        $('button').click(function(){
         validateForm()
     })
     
@@ -33,8 +34,9 @@ $(function () {
             // do something here
             $(this).removeClass('input-warning')
             //$(this).off(e);
-        });
-    })
+    });
+    });
+})
 
                                                                                                             $("#someSelector")
 

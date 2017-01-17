@@ -49,13 +49,13 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .blog-primary,.blog-secondary{
-        height: 280px;
-        width: 500px;
+        height: 252px;
+        width: 450px;
         margin: 0 auto;
     }
     
     .blogSection{
-        height: 1200px;
+        height: 1050px;
     }
     
     .blog-primary{
@@ -69,5 +69,43 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+    
+    .priority{
+       width: 90%
+    }
 
+    .aboutSection{
+        padding: 40px 0px;
+    }
+    
+     .blog-primary,.blog-secondary{
+        height: 224px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    
+    .blogSection{
+        height: 1000px;
+    }
+    
+    .blogSection h1{
+        margin: 15%
+    }
+    
+    .blog-primary{
+        margin-bottom: 10px;
+    }
+    
+    .jumboNav{
+        display: none;
+    }
+    
+    .jumbotron{
+        height: 600px;
+    }
+    
+    .jumbotron img{
+        width: 80%;
+        transform: translate(-50%, 150%);
+    }
 }

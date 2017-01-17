@@ -2,39 +2,37 @@
 $(function () {
     $(window).on("load", function() {
     
-        $('button').click(function(){
+        $('#form-submit').click(function(){
         validateForm()
-    })
-    
-    //hero animation on page load
-    fadeInHero()
-    
-    //fade out/in hero on scroll
-    window.addEventListener('scroll', function(){
-        heroFadeAsScroll(250)
-    });
-    
-    //parallax effect
-    window.addEventListener('scroll', parallax);
-    
-    //hide/show sticky nav during scroll
-    window.addEventListener('scroll', stickyNavEvents($(window)));
-    
+        })
 
-    //resize events
-    var resizeTimer = null;
-    $(window).bind('resize', function() {
-        if (resizeTimer) clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(resetOnResize, 100);
-    });
-    
-    $("input, textarea").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd",
-        function(e){
-            console.log('transition finished')
-            // do something here
-            $(this).removeClass('input-warning')
-            //$(this).off(e);
-    });
+        //hero animation on page load
+        fadeInHero()
+
+        //fade out/in hero on scroll
+        window.addEventListener('scroll', function(){
+            heroFadeAsScroll(250)
+        });
+
+        //parallax effect
+        window.addEventListener('scroll', parallax);
+
+        //hide/show sticky nav during scroll
+        window.addEventListener('scroll', stickyNavEvents($(window)));
+
+
+        //resize events
+        var resizeTimer = null;
+        $(window).bind('resize', function() {
+            if (resizeTimer) clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(resetOnResize, 100);
+        });
+
+        //transition callback for form errors
+        $("input, textarea").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd",
+            function(e){
+                $(this).removeClass('input-warning')
+        });
     });
 })
 

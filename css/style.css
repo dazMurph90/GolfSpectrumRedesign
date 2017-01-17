@@ -61,7 +61,7 @@ ul.navbar-right li a{
 .in{
     text-align: center;
     overflow: hidden !important;
-    background: rgba(0,0,0,0.70);
+    background: rgba(255,255,255,.9);
     border: none;
     
 }
@@ -73,7 +73,7 @@ ul.navbar-right li a{
 .collapsing{
     height: 0px ;
     overflow-y: hidden;
-    background: rgba(0,0,0,0.70);
+    background: rgba(255,255,255,.9);
     border: none;
     
 }
